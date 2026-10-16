@@ -1,0 +1,23 @@
+# 运行时数据（含个人会话内容、日志、窗口位置）
+data/
+*.log
+
+# 字节码
+__pycache__/
+*.py[cod]
+
+# 虚拟环境（本项目直接装进 D:\Python312，不依赖 venv）
+.venv/
+_unused_venv_can_delete/
+
+# Python 安装包
+setup/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 本机自动化日志
+@AutomationLog.txt

@@ -1,0 +1,49 @@
+{
+  "ai": {
+    "api_base": "https://api.openai.com/v1",
+    "api_key": "",
+    "model": "gpt-4o-mini",
+    "timeout": 20
+  },
+  "watcher": {
+    "interval_seconds": 2,
+    "demo_mode": false
+  },
+  "filter": {
+    "my_names": ["张三"],
+    "group_senders": [],
+    "group_keywords": ["群", "组", "部门", "项目"],
+    "unknown_as_group": false
+  },
+  "widget": {
+    "alpha": 0.97
+  },
+  "mark_read": {
+    "enabled": true,
+    "use_uia_first": true,
+    "fallback_hotkey": true,
+    "search_key": "f",
+    "skip_if_wecom_already_clear": true
+  },
+  "capture": {
+    "clipboard": true,
+    "hotkey": true,
+    "interval_seconds": 0.8,
+    "min_length": 2,
+    "screen": true,
+    "screen_interval_seconds": 3,
+    "screen_scale": 2,
+    "list_x": [0.15, 0.38],
+    "api": false,
+    "api_interval_seconds": 20,
+    "api_lookback_seconds": 120,
+    "api_chat_ids": [],
+    "window_watch": false
+  },
+  "auto": {
+    "wecom_process_names": ["WXWork.exe"],
+    "quit_with_wecom": true,
+    "absent_grace_seconds": 20,
+    "poll_seconds": 5
+  }
+}

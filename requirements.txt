@@ -1,0 +1,3 @@
+# Optional: enables reading the WeCom chat list. Without it the app still works
+# (it falls back to window-title based new-message detection).
+uiautomation>=2.0.0
